@@ -51,21 +51,20 @@ education:
         The recommendations are produced using a learning Association rule algorithm.
         Developed using Asp.net and Angular. Final grade: 98
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior software engineer for the ‘Cloud Policy Connector’ system
+      time: 2018 - Present
+      company: Cisco systems
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Design, Development and Integration of a cloud-based Java spring system 
+        that aims to extend the capabilities of the Cisco ISE system into the cloud domain.
+        Key responsibilities include:
+          - Full ownership of migrating the existing product runtime into the AWS ECS platform
+          - Integration of peripheral services to their AWS counterparts (e.g. Cognito, RDS, etc.) 
+          - Development and maintenance of three layers of testing (UT, FT, ST) using Python 3
+          - Integration with offsite international dev/PO/PM teams for co-development 
+          of features, tests, pipeline and bugs handling
+          - Development of the back-office User management and Analytics system
+          - Responsible for ramping up of new engineers into the scrum
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
