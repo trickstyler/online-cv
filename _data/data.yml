@@ -61,8 +61,7 @@ experiences:
           - Full ownership of migrating the existing product runtime into the AWS ECS platform
           - Integration of peripheral services to their AWS counterparts (e.g. Cognito, RDS, etc.) 
           - Development and maintenance of three layers of testing (UT, FT, ST) using Python 3
-          - Integration with offsite international dev/PO/PM teams for co-development 
-          of features, tests, pipeline and bugs handling
+          - Integration with offsite international dev/PO/PM teams for co-development of features, tests, pipeline and bugs handling
           - Development of the back-office User management and Analytics system
           - Responsible for ramping up of new engineers into the scrum
     - role: Senior Software Engineer
