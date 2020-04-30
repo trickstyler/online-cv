@@ -1,91 +1,67 @@
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Roy Ludan
+    tagline: Senior backend engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    email: roy@ludan.dev
+    website: ludan.dev #do not add http://
+    linkedin: roy-ludan
+    github: trickstyler
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Hebrew
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Fluent
 
     interests:
-      - item: Climbing
+      - item: Software
         link:
 
-      - item: Snowboarding
+      - item: Basketball
         link:
 
-      - item: Cooking
+      - item: Traveling
         link:
 
 career-profile:
-    title: Career Profile
+    title: Objective
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I seek to professionally lead, challenge and be challenged in a senior software engineer position. 
+      Analyze and improve code, systems and performance. 
+      Develop new programs, products and relationships
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Computer Science
+      university: College of management
+      time: 2013 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Final project: 'Knight.out' is a web application that produces tailor-made entertainment recommendations 
+        from a wide variety of options such as movies, bars, sporting events, etc. 
+        The recommendations are produced using a learning Association rule algorithm.
+        Developed using Asp.net and Angular. Final grade: 98
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior software engineer for the ‘Cloud Policy Connector’ system
+      time: 2018 - Present
+      company: Cisco
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Design, Development and Integration of a cloud-based Java spring system that aims 
+        to extend the capabilities of the Cisco ISE system into the cloud domain. 
+        Key responsibilities include:
+          - •	Full ownership of migrating the existing product runtime into the AWS ECS platform
+          - •	Integration of peripheral services to their AWS counterparts (e.g. Cognito, RDS, etc.) 
+          - •	Development and maintenance of three layers of testing (UT, FT, ST) using Python 3
+          - •	Integration with offsite international dev/PO/PM teams for co-development of features, tests, pipeline and bugs handling
+          - •	Development of the back-office User management and Analytics system
+          - •	Responsible for ramping up of new engineers into the scrum
           - Bullet point
           - Bullet point
     - role: Senior Software Engineer
