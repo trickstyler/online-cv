@@ -73,7 +73,8 @@ experiences:
           -	Creating a CI/CD infrastructure on Microsoft's Team services
           - Improving performance and stability of the system deployed over Apache Tomcat servers
           - Reviewing of code, features, quality and status as a liaison from Netafim
-    - role: Senior software engineer for the ‘iD Platform’ and ‘CancerConnect’ application 
+    - role: Senior software engineer for the ‘iD Platform’ and 
+    ‘CancerConnect’ applications
       time: 2016 - 2016
       company: NantMobile (Out of business)
       details: |
