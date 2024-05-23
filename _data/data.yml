@@ -122,21 +122,27 @@ skills:
     toolset:
       - name: Java & Spring
         level: 98%
-        
-      - name: Apache Flink
+
+      - name: Python
         level: 92%
 
       - name: Apache Spark
         level: 90%
 
-      - name: Python
-        level: 90%
-      
-      - name: Docker & kubernetes
+      - name: AWS
         level: 85%
-      
+
+      - name: MongoDB
+        level: 85%
+
+      - name: Apache Flink
+        level: 85%
+
+      - name: Docker & kubernetes
+        level: 82%
+
       - name: C# & .Net
         level: 80%
-        
+
       - name: Javascript
         level: 80%
