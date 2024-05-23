@@ -40,7 +40,10 @@ career-profile:
       Analyze and improve code, systems and performance. 
       Develop new programs, products and relationships
 education:
-    - degree: BSc in Computer Science
+    - degree: M.Sc in Machine Learning and Data Science
+      university: Reichman University
+      time: 2022-Today
+    - degree: B.Sc in Computer Science
       university: College of management
       time: 2013 - 2015
       details: |
