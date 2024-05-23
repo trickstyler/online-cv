@@ -4,7 +4,7 @@ sidebar:
 
     # Profile information
     name: Roy Ludan
-    tagline: Senior Software Engineer
+    tagline: Staff Software Engineer
     avatar: profilepic.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -36,9 +36,9 @@ sidebar:
 career-profile:
     title: Objective
     summary: |
-      I seek to professionally lead, challenge and be challenged in a senior software engineer position. 
+      I seek to professionally lead, challenge and be challenged in a tech lead position. 
       Analyze and improve code, systems and performance. 
-      Develop new programs, products and relationships
+      Develop new programs, products and relationships.
 education:
     - degree: M.Sc in Machine Learning and Data Science
       university: Reichman University
@@ -123,17 +123,20 @@ skills:
       - name: Java & Spring
         level: 98%
         
+      - name: Apache Flink
+        level: 92%
+
+      - name: Apache Spark
+        level: 90%
+
+      - name: Python
+        level: 90%
+      
       - name: Docker & kubernetes
-        level: 95%
+        level: 85%
       
       - name: C# & .Net
-        level: 90%
+        level: 80%
         
-      - name: Python & Django
-        level: 85%
-
       - name: Javascript
-        level: 85%
-
-      - name: Node.js
-        level: 85%
+        level: 80%
