@@ -1,26 +1,29 @@
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False
+    education: True
 
     # Profile information
     name: Roy Ludan
-    tagline: Staff Software Engineer
-    avatar: profilepic.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: MLOps Team Lead
+    avatar: profilepic.jpg
 
     # Sidebar links
-    email: roy@ludan.dev
-    website: ludan.dev #do not add http://
+    email: royludan@gmail.com
+    website: ludan.dev
     linkedin: roy-ludan
     github: trickstyler
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow:
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    goodreads:
+
+    location: Haifa, Israel
+    phone: +972-546-153075
 
     conference appearances:
       - name: Geektime Code
         year: 2023
         topic: Voice based attacks
-    
+
     languages:
       - idiom: Hebrew
         level: Native
@@ -41,90 +44,167 @@ sidebar:
 career-profile:
     title: Objective
     summary: |
-      I seek to professionally lead, challenge and be challenged in a tech lead position. 
-      Analyze and improve code, systems and performance. 
-      Develop new programs, products and relationships.
+      MLOps Team Lead with over a decade of hands-on experience in
+      architecting, developing and turning ML research into production
+      systems that run at scale. I lead teams the way I write code - with
+      clarity, ownership, and a bias for shipping. I've built and shipped
+      across industries where scale is the starting point. Seeking a
+      challenging role to leverage technical proficiency and leadership
+      abilities to create a meaningful difference.
+
 education:
-    - degree: M.Sc in Machine Learning and Data Science
+    - degree: M.Sc. in Machine Learning and Data Science
       university: Reichman University
-      time: 2022-Today
-    - degree: B.Sc in Computer Science
-      university: College of management
+      time: 2022 - 2026
+      details: |
+        GPA: 90
+
+    - degree: B.Sc. in Computer Science
+      university: The College of Management Academic Studies
       time: 2013 - 2015
       details: |
-        Final project: 'Knight.out' is a web application that produces tailor-made entertainment recommendations 
-        from a wide variety of options such as movies, bars, sporting events, etc. 
+        GPA: 86
+        Final project: 'Knight.out' is a web application that produces tailor-made entertainment recommendations
+        from a wide variety of options such as movies, bars, sporting events, etc.
         The recommendations are produced using a learning Association rule algorithm.
         Developed using Asp.net and Angular. Final grade: 98
+
+    - degree: Mamram Programming Course
+      university: IDF
+      time: 2012
+
+    - degree: C4I Land Officers Course
+      university: IDF
+      time: 2007
+
 experiences:
-    - role: Staff software engineer for the BLADE system
+    - role: MLOps Team Lead
+      time: 2024 - Present
+      company: Wiliot
+      details: |
+        - Leading a team of 8 engineers (including 1 Data Scientist), owning the end-to-end lifecycle of production ML
+          systems for large-scale IoT tracking across global supply chains.
+        - Architected and scaled real-time streaming ML pipelines (Apache Flink, Kafka, Kubernetes) from hundreds to
+          100K+ events/sec, enabling deployment across 4,000+ physical stores within one year.
+        - Designed and operated end-to-end ML pipelines (training + inference), processing ~3TB/day and supporting
+          ~20 production models.
+        - Built complex real-time inference pipelines including data ingestion, decryption, enrichment, and fan-out
+          model serving architectures.
+        - Reduced system latency by up to 43% and infrastructure costs by ~15% through autoscaling and pipeline
+          optimization.
+        - Established production-grade monitoring for data drift, model performance, and system health, maintaining
+          99.99% uptime SLA.
+        - Improved team productivity and development velocity by promoting modern tooling and AI-assisted development
+          workflows.
+        - Partnered closely with Data Science, DevOps, PM and external stakeholders to deliver scalable ML solutions
+          in production.
+
+    - role: Staff Software Engineer for the BLADE system
       time: 2022 - 2024
       company: Intuit
       details: |
-        - Responsible for the design, development, and maintenance of several core key components of the BLADE system.
-        - Collaborated closely with the data science team to bring a machine learning model into production, aimed at protecting Intuit's APIs against malicious intentions from both security and fraud perspectives.
-        - Played a crucial role in the successful deployment of the machine learning model, which at its peak handled almost 1 million transactions per second (TPS) while demonstrating impressive performance results.
-        - Utilized expertise in Apache Flink to develop a high-performance, scalable, and secure software solution.
-        - Participated in code reviews, ensuring adherence to best practices and maintaining code quality standards.
+        - Responsible for the architecture, design, development, and maintenance of several core key components of
+          the BLADE system.
+        - Led a team of 4 engineers (including 1 Data Analyst).
         - Mentored junior developers, providing guidance and fostering their professional growth.
-    - role: Senior software engineer for the RCS system
+        - Collaborated closely with the data science team to bring machine learning models into production, aimed at
+          protecting Intuit's APIs against malicious intentions from both security and fraud perspectives.
+        - Successfully deployed several ML models, which at their peak handled ~1 million TPS while demonstrating
+          impressive performance results (F1, p99 latency & throughput).
+        - Utilized expertise in Apache Flink to develop a high-performance, scalable, and secure software solution.
+        - Full project planning and management: cost, timeline and risks.
+
+    - role: Senior Software Engineer for the RCS system
       time: 2020 - 2022
       company: Intuit
       details: |
-        - Played a key role in the redesign, architecture, development, and maintenance of the Risk Control System (RCS). 
-        - Spearheaded the migration from a legacy batch processing infrastructure, which was prone to crashes and lacked code quality, to a modern, highly available, and maintainable system based on a Java Spring microservices architecture. 
-        - Collaborated with cross-functional teams to gather requirements, design system architecture, and implement robust solutions. 
-    - role: Senior software engineer for the ‘Cloud Policy Connector’ system
+        - Played a key role in the redesign, architecture, development, and maintenance of the Risk Control System
+          (RCS) 2.0.
+        - Spearheaded the migration from a legacy batch processing infrastructure, which was prone to crashes and
+          lacked code quality, to a modern, highly available, and maintainable system based on a Java Spring boot
+          microservices architecture. Post migration, the RCS system served its clients at 99.999% uptime with a
+          NPS score of 86.
+        - Collaborated with cross-functional teams to gather requirements, design system architecture, and implement
+          robust solutions.
+
+    - role: Senior Software Engineer for the Cloud Policy Connector system
       time: 2018 - 2020
       company: Cisco, Netanya
       details: |
-        Design, Development and Integration of a cloud-based Java spring system that aims 
-        to extend the capabilities of the Cisco ISE system into the cloud domain. 
-        Key responsibilities include:
-          - Full ownership of migrating the existing product runtime into the AWS ECS platform
-          - Integration of peripheral services to their AWS counterparts (e.g. Cognito, RDS, etc.) 
-          - Development and maintenance of three layers of testing (UT, FT, ST) using Python 3
-          - Integration with offsite international dev/PO/PM teams for co-development of features, tests, pipeline and bugs handling
-          - Development of the back-office User management and Analytics system
-          - Responsible for ramping up of new engineers into the scrum
-    - role: Senior software engineer for the ‘NetBeat’ system 
+        Design, Development and Integration of a cloud-based Java Spring system that aims to extend the capabilities
+        of the ISE (Identity Services Engine) system into the cloud domain.
+        Key responsibilities included:
+          - Migrated existing product runtime to the AWS ECS Fargate platform.
+          - Integrated peripheral services with their AWS counterparts (Cognito, RDS, etc.).
+          - Developed and maintained three layers of testing (UT, FT, ST) and ensured quality.
+          - Integration with offsite international dev/PO/PM teams for co-development of features, tests, pipeline
+            and bugs handling.
+          - Development of the back-office User management and Analytics system.
+          - Responsible for ramping up of new engineers into the scrum.
+
+    - role: Senior Software Developer and Tech Lead for the NetBeat™ system
       time: 2016 - 2018
-      company: Netafim, Petah tikva (In collaboration with mPrest systems)
+      company: Netafim, Petah Tikva (in collaboration with mPrest systems)
       details: |
-        Design, Development and Integration, from scratch, of a cloud-based Java spring system that aims 
-        to give global farmers command and control of their fields and crops
-          - Developing peripheral tools for the main app such as: Watch dog and a math crop model
-          - Testing, initiating and teaching new technologies to the team such as: FOTA, DB Sync & migrations, AOP, etc.
-          -	Creating a CI/CD infrastructure on Microsoft's Team services
-          - Improving performance and stability of the system deployed over Apache Tomcat servers
-          - Reviewing of code, features, quality and status as a liaison from Netafim
-    - role: Senior software engineer for the ‘iD Platform’ and ‘CancerConnect’ applications
+        Design, Development and Integration, from scratch, of a cloud-based Java Spring system that aims to give
+        global farmers command and control of their fields and crops.
+        Key responsibilities included:
+          - Developed peripheral tools for the main app such as a watchdog and a math crop model.
+          - Tested, initiated, and taught new technologies to the team including FOTA, DB Sync & migrations, and AOP.
+          - Created a CI/CD infrastructure using Microsoft Fabric.
+          - Improved performance and stability of the system deployed on Apache Tomcat servers.
+          - Reviewed code, feature quality, and status as a liaison from Netafim.
+
+    - role: Senior Software Engineer for the 'iD Platform' and 'CancerConnect' applications
       time: 2016 - 2016
       company: NantMobile (Out of business)
       details: |
-        Development, maintenance and debugging for the backend of a TV, picture and voice recognition API
-          - Developing REST web services with RestEasy and Undertow
-          - Creating unit and integration tests (BDD) using Cucumber
-          - Continuous development and integration using Jenkins
-          - Developing atop Amazon Web Service’s core functionalities such as EC2, S3 and DynamoDB
-    - role: Senior project manager of the ‘Regional Meteorology’ system
+        Development, maintenance and debugging for the backend of a TV, picture and voice recognition API.
+          - Developing REST web services with RestEasy and Undertow.
+          - Creating unit and integration tests (BDD) using Cucumber.
+          - Continuous development and integration using Jenkins.
+          - Developing atop Amazon Web Service's core functionalities such as EC2, S3 and DynamoDB.
+
+    - role: Senior Project Manager of the 'Regional Meteorology' system
       time: 2015 - 2016
       company: IDF
-    
-    - role: Project manager and developer of the ‘Sky solver’ system
+
+    - role: Project Manager and Developer of the 'Sky Solver' system
       time: 2013 - 2015
       company: IDF
-    
-    - role: Team leader and developer of the ‘TORC2H’ system
+
+    - role: Team Leader and Developer of the 'TORC2H' system
       time: 2012 - 2013
       company: IDF
 
-
-
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills & Proficiency
 
     toolset:
+      - category: MLOps & ML Systems
+        items: Model Deployment and Serving, CI/CD for ML, Model Versioning, Data & Model Monitoring, A/B Testing,
+               Experiment Tracking, Data Drift Detection
+
+      - category: Streaming & Data Processing
+        items: Apache Flink, Apache Kafka, Apache Spark, Real-Time Pipelines, Delta Lake
+
+      - category: Cloud & Infrastructure
+        items: Docker, Kubernetes (K8s), ArgoCD, GitHub Actions, AWS (EKS, EC2, RDS, Cognito, S3), Databricks,
+               Distributed Systems
+
+      - category: Databases
+        items: MongoDB, PostgreSQL, Redis, DynamoDB
+
+      - category: Observability
+        items: Splunk, Grafana, Prometheus
+
+      - category: Programming
+        items: Java, Python (PyTorch, NumPy, Pandas), Go, C#
+
+      - category: AI Tools
+        items: GitHub Copilot, Claude Code, ChatGPT
+
+      # Legacy proficiency levels kept for backward compatibility
       - name: Java & Spring
         level: 98%
 
@@ -143,7 +223,7 @@ skills:
       - name: Apache Flink
         level: 85%
 
-      - name: Docker & kubernetes
+      - name: Docker & Kubernetes
         level: 82%
 
       - name: C# & .Net
